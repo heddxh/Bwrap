@@ -24,7 +24,7 @@ function launch() {
 		--bind /tmp /tmp \
 		--bind "$XDG_RUNTIME_DIR" "$XDG_RUNTIME_DIR" \
 		--bind "$APP_HOME" "$HOME" \
-		--bind "$XDG_CONFIG_HOME" "$XDG_CONFIG_HOME" \
+		--bind "$XDG_CONFIG_HOME/android_studio_canary" "$XDG_CONFIG_HOME" \
 		--bind "$XDG_CACHE_HOME" "$XDG_CACHE_HOME" \
 		--bind "$XDG_DATA_HOME" "$XDG_DATA_HOME" \
 		--bind "$HOME"/Android "$HOME"/Android \
